@@ -1,0 +1,14 @@
+source: test/source
+dest: test/dest
+
+server:
+  port: 4567
+
+plugins:
+  - name: copydest
+  - name: sass
+    options:
+      watch: "**/*.scss"
+  - name: tailwind
+  - name: imagecompressor
+  - name: hotreload
