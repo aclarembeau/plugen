@@ -24,36 +24,19 @@ Plugen is a pluggable static website generator designed to make building static 
 
 Follow these steps to get started with Plugen:
 
-1. **Installation**: Install Plugen globally using pip:
+1. **Installation**: Install Plugen globally using pipx:
 
    ```shell
-   $ pip3 install plugen
+   $ pipx install plugen
    ```
 
-2. **Create a new project**: Create a new directory for your project and navigate into it:
-
-   ```shell
-   $ mkdir my-website
-   $ cd my-website
-   ```
-
-3. **Initialize a Plugen project**: Run the following command to initialize a Plugen project:
-
-   ```shell
-   $ plugen init
-   ```
-
-4. **Configure plugins**: Open the `plugen.config.yml` file in your project directory and configure the plugins you want to use for your website.
-
-5. **Create content**: Create your website's pages and content in the `content` directory. You can use Markdown files for your content and define front matter for each page to provide metadata.
-
-6. **Build your website**: Run the following command to generate your static website:
+2. **Build your website**: Run the following command to generate your static website:
 
    ```shell
    $ plugen build
    ```
 
-7. **Serve your website**: To preview your website locally, use the following command:
+3. **Serve your website**: To preview your website locally, use the following command:
 
    ```shell
    $ plugen serve
@@ -61,7 +44,7 @@ Follow these steps to get started with Plugen:
 
    This will start a local development server, and you can access your website at `http://localhost:3000`.
 
-8. **Customize and extend**: Explore Plugen's plugin ecosystem and customize your website further to meet your specific requirements. Visit the Plugen documentation for more details.
+4. **Customize and extend**: Explore Plugen's plugin ecosystem and customize your website further to meet your specific requirements. Visit the Plugen documentation for more details.
 
 ## Contributing
 

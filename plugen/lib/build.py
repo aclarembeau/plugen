@@ -1,8 +1,8 @@
 import os
 from shutil import rmtree
 
-from lib.plugin import plugin_instances
-from lib.utils import read_yaml_file, list_recently_modified_files
+from plugen.lib.plugin import plugin_instances
+from plugen.lib.utils import read_yaml_file, list_recently_modified_files
 
 def build_func(args):
     print('=== Initialization sequence')

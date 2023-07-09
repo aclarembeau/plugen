@@ -7,8 +7,8 @@ import time
 from functools import partial
 from shutil import rmtree
 
-from lib.plugin import plugin_instances
-from lib.utils import list_recently_modified_files, read_yaml_file
+from plugen.lib.plugin import plugin_instances
+from plugen.lib.utils import list_recently_modified_files, read_yaml_file
 
 killed = False
 

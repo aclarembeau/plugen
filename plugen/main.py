@@ -1,7 +1,7 @@
 import argparse
 
-from lib import build_func, serve_func
-from lib.plugin import list_plugins, install_plugin, remove_plugin
+from plugen.lib import build_func, serve_func
+from plugen.lib.plugin import list_plugins, install_plugin, remove_plugin
 
 
 def main():
