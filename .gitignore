@@ -3,4 +3,4 @@ test/
 *.pyc
 venv/
 dist/
-plugen.egg-info/ 
+plugen.egg-info/

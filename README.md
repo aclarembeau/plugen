@@ -28,7 +28,7 @@ Follow these steps to get started with Plugen:
    $ pipx install plugen
    ```
    
-Then, on any folder, run the following command to set up a configuration file 
+   Then, on any folder, run the following command to set up a configuration file 
 
    ```shell 
    $ plugen init
