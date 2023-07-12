@@ -8,7 +8,7 @@ setup(
         ],
     },
     name='plugen',
-    version='1.0.4',
+    version='1.1.0',
     license='MIT',
     author="Clarembeau Alexis",
     author_email='alexis.clarembeau@gmail.com',

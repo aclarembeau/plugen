@@ -10,6 +10,7 @@ setup.py
 ./plugen.egg-info/top_level.txt
 ./plugen/lib/__init__.py
 ./plugen/lib/build.py
+./plugen/lib/init.py
 ./plugen/lib/plugin.py
 ./plugen/lib/serve.py
 ./plugen/lib/utils.py
