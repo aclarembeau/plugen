@@ -2,3 +2,5 @@
 test/
 *.pyc
 venv/
+dist/
+plugen.egg-info/ 
