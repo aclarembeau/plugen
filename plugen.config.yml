@@ -6,6 +6,9 @@ server:
 
 plugins:
   - name: copydest
+    options:
+      ignored:
+        - tailwind.config.js 
   - name: sass
     options:
       watch: "**/*.scss"

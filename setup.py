@@ -8,7 +8,7 @@ setup(
         ],
     },
     name='plugen',
-    version='1.0.0',
+    version='1.0.4',
     license='MIT',
     author="Clarembeau Alexis",
     author_email='alexis.clarembeau@gmail.com',
@@ -16,5 +16,5 @@ setup(
     package_dir={'': './'},
     url='https://github.com/aclarembeau/plugen',
     keywords='static website generator',
-    install_requires=['yaml'],
+    install_requires=['PyYAML', 'websockets'],
 )

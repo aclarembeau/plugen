@@ -1,6 +1,7 @@
 import argparse
 
 from plugen.lib import build_func, serve_func
+from plugen.lib.init import init_func
 from plugen.lib.plugin import list_plugins, install_plugin, remove_plugin
 
 
@@ -10,6 +11,10 @@ def main():
     # Subparsers for the different commands
     subparsers = parser.add_subparsers(title='commands', dest='command')
     subparsers.required = True
+
+    # Init command
+    init_parser = subparsers.add_parser('init', help='Initializes a config file')
+    init_parser.set_defaults(func=init_func)
 
     # Build command
     build_parser = subparsers.add_parser('build', help='Build the static website')
